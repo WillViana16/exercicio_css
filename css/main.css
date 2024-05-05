@@ -4,9 +4,6 @@
     padding: 0;
 }
 
-body {
-    background-image:url("Midia/background.png")
-}
 header .container {
     display: flex;
     align-items:center;
@@ -27,7 +24,7 @@ body header h1 {
 }
 
 header li {
-    display: inline;
+    display:inline;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin-left: 16px;
@@ -79,7 +76,6 @@ header li a:hover {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
 section h2 {
     font-size: 30px;
 }
@@ -91,11 +87,62 @@ section h2 {
     text-decoration: none;
     font-weight: bold;
     margin-top: 8px;
-    background-color: black;
-
 }
 
 .articles article a:hover {
     text-decoration: underline;
+}
+
+#sports {
+    background-color: rgba(0,255, 0, 0.15);
+}
+
+#sports a {
+    background-color: green;
+}
+
+#sports a:hover {
+    background-color: rgb(115, 175, 26);
+    color: black;
+}
+
+#economy {
+    background-color: rgba(218, 165, 32, 0.5);
+}
+
+#economy a {
+    background-color: rgb(170, 111, 0);
+}
+
+#economy a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+#entertainment {
+    background-color: rgba(255, 0, 0, 0.514);
+}
+
+#entertainment a {
+    background-color: rgb(129, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#entertainment a:hover {
+    background-color: rgb(255, 4, 4);
+    color: black;
+}
+
+#fun {
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+#fun a {
+    background-color: black;
+}
+
+#fun a:hover {
+    background-color: grey;
+    color: black;
 }
 
